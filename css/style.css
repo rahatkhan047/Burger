@@ -1,0 +1,379 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+/* Header Part Start */
+header{
+    background-image: url(../images/Burger-banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header_top img{
+    width: 15%;
+}
+.Express_Delivery{
+    display: flex;
+    align-items: center;
+}
+
+.Express_Delivery h6{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0 !important;
+    margin-left: 25px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.burger_week{
+    min-height: 85vh;
+    align-items: center;
+}
+.burger_week h5{ 
+    text-transform: uppercase; 
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    display: inline-block;
+    color: #3d2514;
+    border: 2px dashed #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+.burger_week h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 90px;
+    color: #3d2514;
+    line-height: 60px;
+    margin-top: 25px;
+    text-shadow: 2px 4px 0px #ffff;
+}
+.burger_week span{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    color: #3d2514;
+}
+.burger_image{
+    position: relative;
+}
+.price{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 100px;
+    background: #e71313;
+    position: absolute;
+    top: 74%;
+}
+.price_box{
+    border: 2px dashed #fff;
+    padding: 23px;
+    border-radius: 100px;
+}
+.price_box h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+.price_box h6{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+/* Header Part End */
+/* Try It Today Section Start */
+.try_it_today{
+    padding: 50px 0;
+}
+.popular_burger{
+    position: relative;
+}
+.try_it_today_cont{
+    position: absolute;
+    top: 17px;
+    left: 18px;
+}
+.try_it_today_cont h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.try_it_today_cont h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.try_it_today_cont h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 35px;
+}
+.popular_burger img{
+    width: 99%;
+}
+/* Try It Today Section End */
+
+/* Testy Burger Section Start */
+.Always_Tasty_Burger h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    display: inline-block;
+    background: #ffc045;
+    padding: 10px 15px;
+    font-weight: 500;
+    color: #3d2514;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.Always_Tasty_Burger h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 43px;
+    color: #3d2514;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.Always_Tasty_Burger p{
+    color: #3d2514;
+    font-size: 19px;
+}
+.burger_item img{
+    margin-left: 25px;
+    width: 95%;
+}
+.burger_item h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3d2514;
+}
+.burger-tow img{
+    width: 328px;
+}
+.burger_item p{  
+    font-size: 19px; 
+    color: #3d2514; 
+    margin-bottom: 30px;
+}
+.btn-order{
+    background: #bf2222;
+    color: #fff;
+    border-radius: 0;
+    padding: 17px 25px;
+    font-size: 17px;
+    font-family: 'Alfa Slab One', cursive;
+    line-height: 14px;
+    margin-bottom: 50px;
+    transition: .5s all ease-in-out;
+}
+.btn-order:hover{
+    background-color: #990707;
+    color: white;
+}
+/* Testy Burger Section Start */
+/* Event Section Start */
+.event{
+    margin: 50px 0;
+}
+.event-cont{
+    padding: 37px;
+}
+.event_box{
+    box-shadow: 12px 14px 20px #e3dddd; 
+    padding: 20px 20px; 
+    position: relative;
+}
+.event h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3d2514;
+}
+.event h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.event p{
+    font-size: 17px;
+    color: #3d2514;
+    letter-spacing: 1.7px;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: #dcdcdc;
+    border-radius: 50px;
+    margin: 4px;
+}
+.owl-dots .owl-dot.active span{
+    background-color:#ffc045 ;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+/* Event Section End */
+/* Tabile Section Start */
+.Tabile{
+    margin: 100px 0;
+    position: relative;
+}
+.Tabile h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3d2514;
+}
+.Tabile h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.form_tabile input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    outline: none;
+}
+.btn_tabile{ 
+    background: #bf2222;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #fff;
+    transition: .5s all ease-in-out;
+}
+.btn_tabile:hover{
+    background-color: #990707;
+    color: white;
+}
+.tabile_top{
+    position: absolute;
+    top: -100px;
+    width: 25%;
+}
+.tabile_bottom{
+    position: absolute;
+    top: 39%;
+    right: 0;
+    width: 14%;
+}
+.tabile_middle{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 14%;
+}
+/* Tabile Section End */
+/* Footer part start here */
+footer{
+    padding: 0px 50px 50px 50px;
+}
+.footer_background{
+    background-image: url(../images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    padding: 0px 25px 0px 25px;
+}
+
+.footer_content{
+    min-height: 73vh;
+}
+
+.footer_content img{
+    margin-bottom: 50px;
+    width: 65%;
+}
+
+.footer_content p{
+    color: #fff;
+    margin-bottom: 80px;
+    letter-spacing: 1.1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer_content ul{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.footer_content ul li{
+    list-style: none;
+    color: #fff;
+    margin-right: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer_content ul li i{
+    width: 25px;
+    font-size: 25px;
+}
+
+.copyright{
+
+}
+
+.copyright span{
+    display: block;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
+
+.social_icon{
+
+}
+
+.social_icon ul{
+    display: flex;
+    justify-content: end;
+}
+
+.social_icon ul li{
+    background: #fff;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50px;
+}
+
+.social_icon ul li a{
+    color: #000;
+}
+/* Footer part end here */
